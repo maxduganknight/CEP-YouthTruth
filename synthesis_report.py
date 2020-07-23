@@ -15,10 +15,10 @@ import warnings
 import copy
 
 '''
-This script takes uses the data in a YouthTruth report production directory to create a "synthesis report", which gives a bird's eye view of the data 
-in all of a given client's reports. It summarizes a client's data and highlights trends across stakeholder groups. It outputs one school district-level 
-report, a report for each school in the district, and one report for any 2 or more YouthTruth schools considered a multi-level school. These reports are 
-contained in one JSON file which can be uploaded to the YouthTruth online reporting system and delivered to clients.
+This script uses the data in a YouthTruth report production directory to create a "synthesis report", which gives a bird's eye view of the data 
+in all of a given client's reports. It summarizes a client's data and highlights trends across stakeholder groups. The script outputs one school 
+district level report, a report for each school in the district, and one report for any 2 or more YouthTruth schools considered a multi-level school. 
+These reports are contained in one JSON file which can be uploaded to the YouthTruth online reporting system and delivered to clients.
 '''
 
 parser = ArgumentParser()
